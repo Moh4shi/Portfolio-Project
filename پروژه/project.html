@@ -1,51 +1,67 @@
-<html>
-    <head>
-        <title></title>
-    </head>        
-    <body>
-        <header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./project.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>محمد شیبانی</h1>  
+        <p id="job">نجات غریق</p> 
+        <nav>
+            <ul>
+                <li>بیوگرافی</li>
+                <li>مهارت</li>
+                <li>رزومه کاری</li>
+                <li>ارتباط با من</li>
+            </ul>
+        </nav> 
+    </header>    
+    <!-- Summary -->
+    <div>
+        <h3 class="Summary">بیوگرافی</h3>
+        <p>محمد شیبانی هستم بیست و چهار ساله از شهرستان مشهد دارای کارت  مربی گری نجات غریق و غواصی <br>از هیات نجات غریق و غواصی استان خراسان رضوی دارای هفت سال سابقه کاری در این رشته  دارای دو<br> سال سابقه کاری در مجموعه موج های آبی مشهد و سوابق کاری متعدد در استخر نشاط استخر کوثر استخر<br> حجاب استخر مولای متقیان و مجموعه آبی هشتم </p>
+        <img src="2023_09_01_18_32_IMG_0748.JPG" alt="" width="250px">
+    </div>
 
-            <h1 align="right">محمد شیبانی</h1>  
-            <p align="right">نجات غریق</p> 
-            <nav>
-                <ul>
-                    <li>بیوگرافی</li>
-                    <li>مهارت</li>
-                    <li>رزومه کاری</li>
-                    <li>ارتباط با من</li>
-                </ul>
-            </nav> 
-        </header>
-        <hr align="right" width="100%">
-        <p align="right">محمد شیبانی هستم بیست و چهار ساله از شهرستان مشهد دارای کارت  مربی گری نجات غریق و غواصی <br>از هیات نجات غریق و غواصی استان خراسان رضوی دارای هفت سال سابقه کاری در این رشته  دارای دو<br> سال سابقه کاری در مجموعه موج های آبی مشهد و سوابق کاری متعدد در استخر نشاط استخر کوثر استخر<br> حجاب استخر مولای متقیان و مجموعه آبی هشتم </p>
-        <img src="2023_09_01_18_32_IMG_0748.JPG" alt="" width="250px" align="right">
-        <table align="right" border="3px">
+    <!-- Skills -->
+    <div>
+        <h3> مهارت</h3>
+        <table border="3px">
             <tr>
-                <td align="center" bgcolor="silver">توضیحات</td>
-                <td align="center" bgcolor="silver">سابقه</td>
-                <td align="center" bgcolor="silver">سطح</td>
-                <td align="center" bgcolor="silver">مهارت</td>
-            </tr>    
+                <td>توضیحات</td>
+                <td>سابقه</td>
+                <td>سطح</td>
+                <td>مهارت</td>
+            </tr>
             </tr>
             <tr>
-                <td align="center">ندارد</td>
-                <td align="center">هفت سال</td>
-                <td align="center">حرفه ای</td>
-                <td align="center" >شنا</td>
+                <td>ندارد</td>
+                <td>هفت سال</td>
+                <td>90%<progress min="0" max="10" value="9"></progress></td>
+                <td >شنا</td>
             </tr>
             <tr>
-                <td align="center">در حال آموزش</td>
-                <td align="center" >یک سال</td>
-                <td align="center" >مبتدی</td>
-                <td align="center">زبان انگیسی</td>
+                <td>در حال آموزش</td>
+                <td >یک سال</td>
+                <td>20%<progress  min="0" max="10" value="2"></progress></td>
+                <td>زبان انگیسی</td>
              </tr>
              <tr>
-                <td align="center">در حال آموزش</td>
-                <td align="center">یک ماه</td>
-                <td align="center">بسیار مبتدی</td>
-                <td align="center">برنامه نویسی</td>
+                <td>در حال آموزش</td>
+                <td>یک ماه</td>
+                <td>5%<progress  min="0" max="10" value="0.5"></progress></td>
+                <td>برنامه نویسی</td>
              </tr>               
         </table>
+    </div>
+
+    <!-- Experiences -->
+    <div>
         <h3>رزومه کاری</h3>
         <ul>
             <li>دو سال مجموعه موج های آبی مشهد </li>
@@ -54,6 +70,10 @@
             <li> مجموعه آبی کوثر </li>
             <li>یک سال مجموعه آبی هشتم </li>
         </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
         <h3>ارتباط با من</h3>
         <form action="">
             <label for="نام"> نام : <input type="text" name="نام"><br></label>
@@ -63,5 +83,11 @@
                 <textarea name="" id="" cols="30" rows="10"></textarea>
             </label>            
         </form>
-    </body>
+    </div>
+
+    <!-- Footer -->
+    <div>
+        <p>Copyright &copy Mohammad</p>
+    </div>
+</body>
 </html>
